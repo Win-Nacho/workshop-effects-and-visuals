@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f1f5f9;
+}
+
+.profile-card {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.14);
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+  background: #2563eb;
+  border-radius: 50%;
+  color: white;
+  margin: 0 auto 16px;
+  padding: 20px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  margin: 0 0 4px;
+  color: #0f172a;
+  font-size: 22px;
+}
+
+.role {
+  color: #475569;
+  opacity: 0.72;
+  margin: 0 0 18px;
+}
+
+.bio {
+  line-height: 1.7;
+  color: #334155;
+  margin: 0 0 22px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #e0f2fe;
+  color: #075985;
+  border-radius: 9999px;
+  font-size: 13px;
+  font-weight: 700;
+}
